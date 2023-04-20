@@ -1,9 +1,22 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
-
+h1 {
+  font-family: "Times New Roman";
+  color: cyan;
+  font-size: 500%;
+}
+p {font-family: "Times New Roman";
+  text-indent: 20px; 
+  margin-left: 10px;
+  font-size: larger;
+  color: aquamarine;
+}
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
+#content {
     padding: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
+    width: 500px;
+    min-height: 300px;
+    font-size: 20px;
     border: solid 1px #888;
-    background-color: #DDD8C4;
+    background-color: #aada52;
   }
