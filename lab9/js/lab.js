@@ -16,6 +16,7 @@ new2El.innerHTML = "Something else.";
 
 outputEl.appendChild(new1El);
 outputEl.appendChild(new2El);
+
 //changed css elements
 new1El.style.color = "orange";
 new2El.style.color = "yellow";
