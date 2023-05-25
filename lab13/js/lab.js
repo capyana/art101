@@ -2,9 +2,10 @@
 * Author: Tyana Tran
 *Date:5/24/23
 */
+
 var str;
 function FizzBuzz(){
-    for( var num= 1; i <=200; i++){
+    for( var i= 1; i <=200; i++){
         str = "";
 
         if (i % 3 ==0){
@@ -25,4 +26,6 @@ function FizzBuzz(){
         $("#output").append("<div>" + str);
     }
 }
+
 FizzBuzz()
+
